@@ -9,7 +9,7 @@ app.register(cors);
 
 
 app.get('/habits', async () => {
-    const habits = await prisma.Habits.findMany({
+    const habits = await prisma.habits.findMany({
         where: {
             title: {
                 startsWith: 'Be'
