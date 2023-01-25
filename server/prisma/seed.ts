@@ -55,7 +55,7 @@ async function run() {
             id: thirdHabitId,
             title: 'Dormir 8h',
             created_at: thirdHabitCreationDate,
-            habitWeekDays: {
+            weekDays: {
             create: [
                 { week_day: 1 },
                 { week_day: 2 },
